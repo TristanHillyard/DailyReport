@@ -28,14 +28,12 @@ namespace DailyReport
             Console.ReadLine();
 
             Console.WriteLine("Do you need help with anything? Please answer \"true\" or \"false.\"");
-            Console.ReadLine();
-            bool needHelp = true;
-            bool noHelp = false;
-            if (needHelp)
+            bool needHelp = Convert.ToBoolean(Console.ReadLine());
+            if (needHelp == true)
             {
                 Console.WriteLine("I need help");
             }
-            else if (noHelp)
+            else 
             {
                 Console.WriteLine("I don't need help");
             }
