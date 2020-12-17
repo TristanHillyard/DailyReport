@@ -40,13 +40,14 @@ namespace DailyReport
             Console.Read();
 
             Console.WriteLine("Were there any positive experiences you'd like to share? Please give specifics.");
+            string advice = Console.ReadLine(); 
             Console.ReadLine();
-            Console.Read();
 
             Console.WriteLine("Is there any other feedback you'd like to provide? Please be specific.");
+            string feedback = Console.ReadLine();
             Console.ReadLine();
 
-            Console.WriteLine("How many hourse did you study today?");
+            Console.WriteLine("How many hours did you study today?");
             string hrsStudied = Console.ReadLine();
             int hoursStudied = Convert.ToInt32(hrsStudied);
             Console.WriteLine(hoursStudied);
